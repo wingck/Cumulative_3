@@ -8,7 +8,7 @@ This is the first iteration of our blog project, which has a proof-of-concept to
     - PhpyMyAdmin -> new database -> blog
     - === or ===
     - `mysql> create database blog`
-- Step 4 : Import Tables
+- Step 4 : Import Tables [VIDEO GUIDE](https://youtu.be/wWMcIza-k4s)
   - PhpyMyAdmin -> Import -> Upload authors.sql
   - PhpMyAdmin -> Import -> Upload articles.sql
   - PhpMyAdmin -> Import -> Upload comments.sql
