@@ -21,3 +21,5 @@ This is the first iteration of our blog project, which has a proof-of-concept to
 - Step 5 : Access Connection String properties for your blog DB and change User, Pass, Port, Database, Server in "/Models/DbContext.cs"
 - Step 6 : Make sure "MySQL.Data" is installed in your Visual Studio environment
     - If not installed, go to "Tools" > "Nuget Package Manager" > "Manage Nuget Packages for Solution" > "Browse" > type "MySQL.Data" > "Install"
+- Step 7 : Run the solution in debugging mode (F5) **while** the database environment is running
+- Step 8 : Test to see if the ListAuthors WebAPI method returns information about authors.
