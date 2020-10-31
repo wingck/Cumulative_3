@@ -1,6 +1,8 @@
 # BlogProject_1
 This is the first iteration of our blog project, which has a proof-of-concept to access our MySQL Database.
 
+[Video which goes over codebase](https://youtu.be/uP2kH8tFXIQ)
+
 ## How to Install:
 - Step 1 : Download [MAMP](https://www.mamp.info/en/downloads/) or similar MySQL environment
 - Step 2 : [Download "authors.sql", "articles.sql", "comments.sql", "tags.sql" from the datagenerator](http://sandbox.bittsdevelopment.com/humber/datagenerator/)
