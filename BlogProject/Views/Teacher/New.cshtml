@@ -1,7 +1,7 @@
 ﻿@{
     ViewBag.Title = "New";
 }
-
+<button class="backbtn"><a href="/Teacher/List">Back To Teachers</a></button>
 <h2>New Teacher</h2>
 <form method="POST" action="/Teacher/Create" name="ixdForm">
     <div>
@@ -38,35 +38,35 @@
         var in_date = inputForm.HireDate;
         var in_salary = inputForm.Salary;
         if (in_fName.value === "") {
-            in_fName.style.background = "red";
+            alert("Please enter first name");
             in_fName.focus();
             return false;
         } else {
             in_lName.style.background = "white";
         }
         if (in_lName.value === "") {
-            in_lName.style.background = "red";
+            alert("Please enter last name");
             in_lName.focus();
             return false;
         } else {
             in_lName.style.background = "white";
         }
         if (in_emp.value === "") {
-            in_emp.style.background = "red";
+            alert("Please enter employee number");
             in_emp.focus();
             return false;
         } else {
             in_emp.style.background = "white";
         }
         if (in_date.value === "") {
-            in_date.style.background = "red";
+            alert("Please enter hire date");
             in_date.focus();
             return false;
         } else {
             in_date.style.background = "white";
         }
         if (in_salary.value === "") {
-            in_salary.style.background = "red";
+            alert("Please enter salary");
             in_salary.focus();
             return false;
         }

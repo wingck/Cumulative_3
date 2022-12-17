@@ -19,7 +19,7 @@ textarea {
 
 #containershow {
     width: 80%;
-    margin: 0 auto;
+    margin: 0;
     margin-top: 20px;
 }
 
@@ -55,6 +55,8 @@ a:hover {
     transition: all 0.4s;
     margin-top: 35px;
     font-size: 18px;
+    margin-right: 10px;
+    width: 400px;
 }
 
     .backbtn a {

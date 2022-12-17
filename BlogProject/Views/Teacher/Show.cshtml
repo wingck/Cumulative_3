@@ -3,8 +3,10 @@
     ViewBag.Title = "Show";
 }
 
-<div id="containershow">
-    <button class="backbtn"><a href="/Teacher/List">Back To Teachers</a></button>
+    <nav id="containershow" style="margin:0;">
+        <button class="backbtn"><a href="/Teacher/List">Back To Teachers</a></button>
+        <button class="backbtn"><a href="/Teacher/Update/@Model.TeacherId">Update</a></button>
+    </nav>
     <h2>@Model.TeacherFname @Model.TeacherLname </h2>
     <table>
         <tr>
